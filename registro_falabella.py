@@ -14,6 +14,7 @@ class registro (unittest.TestCase):
         time.sleep(3)
     #AAAA
     #BBBB
+    #CCCC
         
 
 
