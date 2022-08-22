@@ -13,6 +13,7 @@ class registro (unittest.TestCase):
         driver.get("https://www.google.com")
         time.sleep(3)
     #AAAA
+    #BBBB
         
 
 
