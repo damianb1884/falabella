@@ -15,6 +15,7 @@ class registro (unittest.TestCase):
     #AAAA
     #BBBB
     #CCCC
+    #DDDDDD
         
 
 
