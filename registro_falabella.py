@@ -10,14 +10,16 @@ class registro (unittest.TestCase):
 
     def test_1falabella(self):
         driver=self.driver
-        driver.get("https://www.google.com")
+        driver.get("https://secure.falabella.com.ar/falabella-ar/myaccount/register.jsp?CJSESSIONID=6ovKyMizQXwmMcGtNej45EEo.node3205&CURRENCYCODE=ARS&fromPage=&DPSLogout=true")
         time.sleep(3)
-    #AAAA
-    #BBBB
-    #CCCC
-    #DDDDDD
-        
-
+        driver.find_element_by_id("user")
+        driver.find_element_by_id("apellidopaterno")
+        driver.find_element_by_id("mail")
+        driver.find_element_by_id("clave1")
+        driver.find_element_by_id("clave2")
+   
+ 
+   
 
     def tearDown(self):
         self.driver.close()
